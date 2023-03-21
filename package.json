@@ -1,0 +1,19 @@
+{
+  "name": "project-portofolio",
+  "version": "1.0.0",
+  "description": "_ini masih tahap pembuatan_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annalitcz/Portfolio-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annalitcz/Portfolio-project/issues"
+  },
+  "homepage": "https://github.com/annalitcz/Portfolio-project#readme"
+}
