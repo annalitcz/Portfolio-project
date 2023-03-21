@@ -1,5 +1,5 @@
-## project portofolio
+## Project portofolio
     _ini masih tahap pembuatan_
 
-## live preview at
-> https://annalitcz.github.io/Portfolio-project/
+## Live preview
+> https://annalitcz.github.io/Portfolio-project/public/index.html
