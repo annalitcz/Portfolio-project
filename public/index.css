@@ -220,63 +220,6 @@ html {
   cursor: pointer;
 }
 
-
-/* Responsive desktop */
-@media screen and (min-width:1170px) {
-  .portfolio-img li:nth-child(5){
-    margin-top: -128px;
-  }
-  .portfolio-img li:nth-child(6){
-    margin-top: -170px;
-  }
-  .portfolio-img li:nth-child(7){
-    margin-top: -190px;
-  }
-  .portfolio-img li:nth-child(9){
-    margin-top: -44px;
-  }
-}
-/* /Responsive Desktop */
-
-/* Responsive Tablet */
-@media screen and (max-width:1170px) and (min-width:768px){
-  .portfolio-img{
-    padding: 0px 20px;
-  }
-  .portfolio-img li:nth-child(5){
-    margin-top: -0px;
-  }
-  .portfolio-img li:nth-child(4){
-    margin-top: -130px;
-  }
-  .portfolio-img li:nth-child(6){
-    margin-top: -95px;
-  }
-  .portfolio-img li:nth-child(7){
-    margin-top: 1px;
-  }
-  .portfolio-img li:nth-child(8){
-    margin-top: -95px;
-  }
-  .portfolio-img li:nth-child(9){
-    margin: -86px 0px 0px 398px;
-  }
-}
-/* /Responsive Tablet */
-
-/* Responsive Mobile*/
-@media screen and (max-width:768px){
-  .portfolio-img{
-    flex-direction: column;
-    justify-content: center;
-  }
-  .portfolio-img li{
-    width: 90vw;
-  }
-}
-/* /Responsive Ipad Mini - Mobile*/
-
-
 /* /Portfolio */
 
 /* ------------------------ */
@@ -407,46 +350,7 @@ html {
   color: white;
 }
 
-/* Responsive Destkop */
-@media screen and (max-width:768px) and (min-width:529px) {
-  .member{
-    width: 100%;
-  }
-  .pic img{
-    border-radius: 100%;
-    object-fit:cover ;
-  } 
-}
-/* /Responsive Destkop */
-
-/* Reponsive Mobile */
-@media screen  and (max-width:529px) {
-  .member{
-    width:100%;
-    
-  }
-  .pic {
-    width: 40vw;
-    height: 15vh;
-  }
-  .member h4{
-    font-size: 5vw;
-  }
-  .member span{
-    font-size: 4vw;
-  }
-  .member p{
-    font-size: 3vw;
-  }
-  .social i{
-    font-size: 3vw;
-    margin: 5px 0px;
-  }
-
-}
-/* /Reponsive Mobile */
 /* /Team */
-
 /* --------------------- */
 
 /* Pricing */
@@ -558,3 +462,124 @@ html {
 }
 
 /* /Pricing */
+
+
+
+/* Responsive */
+
+/* Responsive desktop */
+@media screen and (min-width:1170px) {
+  /* Portfolio */
+  .portfolio-img li:nth-child(5){
+    margin-top: -128px;
+  }
+  .portfolio-img li:nth-child(6){
+    margin-top: -170px;
+  }
+  .portfolio-img li:nth-child(7){
+    margin-top: -190px;
+  }
+  .portfolio-img li:nth-child(9){
+    margin-top: -44px;
+  }
+  /* /Portfolio */
+
+  /* -------------- */
+}
+
+/* /Responsive Desktop */
+
+/* Responsive Tablet */
+@media screen and (max-width:1170px) and (min-width:769px){
+
+  /* Portfolio */
+  .portfolio-img{
+    padding: 0px 20px;
+  }
+  .portfolio-img li:nth-child(5){
+    margin-top: -0px;
+  }
+  .portfolio-img li:nth-child(4){
+    margin-top: -130px;
+  }
+  .portfolio-img li:nth-child(6){
+    margin-top: -95px;
+  }
+  .portfolio-img li:nth-child(7){
+    margin-top: 1px;
+  }
+  .portfolio-img li:nth-child(8){
+    margin-top: -95px;
+  }
+  .portfolio-img li:nth-child(9){
+    margin: -86px 0px 0px 398px;
+  }
+  /* /Portfolio */
+  
+  /* ---------------- */
+}
+/* /Responsive Tablet */
+
+
+/* Responsive Ipad Mini - Mobile*/
+@media screen and (max-width:768px) and (min-width:529px) {
+
+  /* Portfolio */
+  .portfolio-img{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .portfolio-img li{
+    width: 90vw;
+  }
+  /* /Portfolio */
+
+  /* ------------ */
+
+  /* Team */
+  .member{
+    width: 100%;
+  }
+  .pic img{
+    border-radius: 100%;
+    object-fit:cover ;
+  } 
+  /* /Team */
+
+  /* -------------------- */
+}
+/* /Responsive Ipad Mini - Mobile */
+
+/* Reponsive Mobile */
+@media screen  and (max-width:529px) {
+
+  /* Team */
+  .member{
+    width:100%;
+    
+  }
+  .pic {
+    width: 40vw;
+    height: 15vh;
+  }
+  .member h4{
+    font-size: 5vw;
+  }
+  .member span{
+    font-size: 4vw;
+  }
+  .member p{
+    font-size: 3vw;
+  }
+  .social i{
+    font-size: 3vw;
+    margin: 5px 0px;
+  }
+  /* Team */
+
+  /* -------------------- */
+
+}
+
+/* /Reponsive Mobile */
+
